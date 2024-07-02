@@ -1,0 +1,74 @@
+#extend("base"):
+    #export("content"):
+        <section class="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container glass-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">C</span>
+                        <span class="skill-bubble">Java</span>
+                        <span class="skill-bubble">Python</span>
+                        <span class="skill-bubble">TypeScript</span>
+                        <span class="skill-bubble">PHP</span>
+                        <span class="skill-bubble">Swift</span>
+                        <span class="skill-bubble">Ruby</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">HTML5</span>
+                        <span class="skill-bubble">CSS3 (Tailwind)</span>
+                        <span class="skill-bubble">JavaScript</span>
+                        <span class="skill-bubble">React JS</span>
+                        <span class="skill-bubble">Svelte JS</span>
+                        <span class="skill-bubble">Angular JS</span>
+                        <span class="skill-bubble">Node JS</span>
+                        <span class="skill-bubble">API Integration</span>
+                        <span class="skill-bubble">Electron JS</span>
+                        <span class="skill-bubble">Express JS</span>
+                        <span class="skill-bubble">Next JS</span>
+                        <span class="skill-bubble">Flask</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database Technologies</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">SQL</span>
+                        <span class="skill-bubble">MongoDB</span>
+                        <span class="skill-bubble">Firebase</span>
+                        <span class="skill-bubble">Supabase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools and Frameworks</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Git</span>
+                        <span class="skill-bubble">Docker</span>
+                        <span class="skill-bubble">Github Actions</span>
+                        <span class="skill-bubble">Selenium</span>
+                        <span class="skill-bubble">npm</span>
+                        <span class="skill-bubble">SpriteKit</span>
+                        <span class="skill-bubble">Homebrew</span>
+                        <span class="skill-bubble">yarn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">MS Azure</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML Technologies</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Ollama</span>
+                        <span class="skill-bubble">LLaMA</span>
+                        <span class="skill-bubble">PalM2</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    #endexport
+#endextend

@@ -1,12 +1,31 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>#(title)</title>
-</head>
-
-<body>
-  <h1>#(title)</h1>
-</body>
-</html>
+#extend("base"):
+    #export("content"):
+        <section class="hero">
+            <div class="profile-container">
+                <img src="/images/profile.jpg" alt="Rishi Sudhakar" class="profile-pic">
+            </div>
+            <h1>Rishi Sudhakar</h1>
+            <p class="tagline">Computer Science and Engineering Graduate</p>
+            <div class="cta-buttons">
+                <a href="#about" class="cta-button">Learn More</a>
+                <a href="/contact" class="cta-button secondary">Get in Touch</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="glass-container">
+                <h2>About Me</h2>
+                <p>Recent Computer Science and Engineering graduate from Rajalakshmi Engineering College, seeking a career in software and related professions. Highly adaptable and dynamic, with a proven track record of success in staying current with technological advancements. Excellent problem solving skills and committed to delivering high-quality results in fast-paced, dynamic tech environments.</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> rishisudhakar123@gmail.com</p>
+                    <p><strong>Phone:</strong> 8940794989</p>
+                    <p><strong>Location:</strong> Kanchipuram, Tamilnadu</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="social-button">GitHub</a>
+                    <a href="https://www.linkedin.com/in/rishi-sudhakar" target="_blank" class="social-button">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    #endexport
+#endextend

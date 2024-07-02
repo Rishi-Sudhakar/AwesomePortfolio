@@ -1,0 +1,37 @@
+#extend("base"):
+    #export("content"):
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>NFC based Payment system</h3>
+                    <p>Technologies: Embedded C, HTML, CSS</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>IMDB Clone</h3>
+                    <p>Technologies: Svelte JS, OMDB API</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>Calculator app</h3>
+                    <p>Technologies: Electron JS (MacOS, Windows, Linux)</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>Expense Tracker App</h3>
+                    <p>Technologies: iOS, SwiftUI, Firebase</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>Pacman game</h3>
+                    <p>Technologies: SwiftUI, SpriteKit (MacOS)</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>Blockchain Explorer</h3>
+                    <p>Technologies: React, Python, Flask</p>
+                </a>
+                <a href="https://github.com/Rishi-Sudhakar" target="_blank" class="project-card glass-container">
+                    <h3>Web Scrapper</h3>
+                    <p>Technologies: Perl</p>
+                </a>
+            </div>
+        </section>
+    #endexport
+#endextend
