@@ -6,8 +6,12 @@
     <title>#(title) - Rishi Sudhakar</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
 </head>
 <body>
+    <div id="3d-background"></div>
+    <div class="background-overlay"></div>
     <div class="background-overlay"></div>
     
     <header>
@@ -32,5 +36,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/3d-background.js"></script>
 </body>
 </html>
